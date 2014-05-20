@@ -9,7 +9,7 @@ Usage
 -----
 After compiling, run `$ ./main` to get a useful usage message.
 
-To simulate a system with (N, \mu, \lambda, K) = (10, 8, 4, 6) where the simulation would check for convergenece every 1000000 events and halt at 100 cycles unless the tolerance has already dropped below 0.5%, all the while giving a verbose (1) output, give `$ ./main 10 8 4 6 1000000 100 0.5 1`
+To simulate a system with (N, \mu, \lambda, K) = (10, 8, 4, 6) where the simulation would check for convergence every 1000000 events and halt at 100 cycles unless the tolerance has already dropped below 0.5%, all while giving a verbose (1) output, give `$ ./main 10 8 4 6 1000000 100 0.5 1`
 
 Script
 ------
